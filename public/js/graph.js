@@ -9,7 +9,7 @@
                 window.location.protocol +
                 "//" +
                 window.location.hostname +
-                "/post-graph";
+                ":1881/post-graph";
             var request = $.ajax({
                 method: "GET",
                 url: urlPath,
